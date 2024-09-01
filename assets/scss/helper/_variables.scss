@@ -1,0 +1,63 @@
+
+// 字體通用樣式
+.h2{
+  font-size: 42px;
+}
+
+.h3{
+  font-size: 32px;
+}
+
+.fs-1{
+  font-size: 36px;
+}
+
+//間距
+
+.mr-1{
+  margin-right: 8px;
+}
+
+.mr-3{
+  margin-right: 24px;
+}
+
+.mr-6{
+  margin-right: 48px;
+}
+
+.mb-5{
+  margin-bottom: 36px;
+}
+
+.mb-80{
+  margin-bottom: 80px;
+}
+
+
+
+
+
+
+//flex
+.d-flex{
+  display: flex;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+
+.ai-center{
+  align-items: center;
+}
+
+.jc-center{
+  justify-content: center;
+}
+
+
+.jc-sb{
+  justify-content: space-between;
+}

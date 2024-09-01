@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+}
+
+img{
+  display: block; /* 解決神秘縫隙 */
+  max-width: 100%; /* RWD */
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  display: inline-block; //可以有寬高
+}
+
+img{  //RWD
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+
